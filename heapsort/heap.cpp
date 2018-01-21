@@ -47,11 +47,11 @@ int heap::remove(){
 }
 
 void heap::show(){
-	cout<<"Here is your min heaped array : ";
+	cout<<"Here is your min heaped array : [";
 		for (int i = 0; i < next; ++i) {
 				cout<<q[i]<<", ";
 			}
-	cout<<"\b \b \b \n";
+	cout<<"\b\b]\n";
 }
 
 int main (){
